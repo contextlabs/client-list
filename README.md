@@ -40,8 +40,11 @@ npm run build
 npm run test
 ```
 
+### Desktop
 ![Image alt text](web/assets/List.png?raw=true)
 ![Image alt text](web/assets/Detail.png?raw=true)
 ![Image alt text](web/assets/Filter.png?raw=true)
+
+### Mobile
 ![Image alt text](web/assets/List_Mobile.png?raw=true)
 ![Image alt text](web/assets/Detail_Mobile.png?raw=true)
