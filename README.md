@@ -39,3 +39,9 @@ npm run build
 ```bash
 npm run test
 ```
+
+![Image alt text](assets/List.png?raw=true)
+![Image alt text](assets/Detail.png?raw=true)
+![Image alt text](assets/Filter.png?raw=true)
+![Image alt text](assets/List_Mobile.png?raw=true)
+![Image alt text](assets/Detail_Mobile.png?raw=true)

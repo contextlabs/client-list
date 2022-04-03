@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="h-screen bg-gray-200">
+    <div className="h-full bg-gray-200">
       <div className="py-16 px-4 mx-auto max-w-screen-md sm:py-24 sm:px-6 lg:px-8">
         <BrowserRouter>
           <Routes>
