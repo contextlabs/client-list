@@ -2,10 +2,10 @@
 
 exports[`<Card /> should render the Card as default 1`] = `
 <div
-  class="sm:flex-row sm:my-8 flex flex-col mx-10 my-16 shadow-md rounded-md justify-between bg-white m-4 p-4 border-l-4 border-teal-500 border-solid"
+  class="flex flex-col justify-between p-4 m-4 my-16 mx-10 bg-white rounded-md border-l-4 border-teal-500 border-solid shadow-md sm:flex-row sm:my-8"
 >
   <div
-    class="sm:flex-row flex flex-col"
+    class="flex flex-col sm:flex-row"
   >
     <div>
       <img
@@ -14,15 +14,15 @@ exports[`<Card /> should render the Card as default 1`] = `
       />
     </div>
     <div
-      class="ml-4 flex flex-col justify-between"
+      class="flex flex-col justify-between ml-4"
     >
       <h3
-        class="text-teal-500 text-base font-bold"
+        class="text-base font-bold text-teal-500"
       >
         Card Title
       </h3>
       <h2
-        class="sm:my-0 font-bold text-xl my-2"
+        class="my-2 text-xl font-bold sm:my-0"
       >
         Card Name
       </h2>

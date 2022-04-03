@@ -2,7 +2,7 @@
 
 exports[`<CardDetail /> should render the CardDetail as default 1`] = `
 <div
-  class="w-32 mx-auto relative -mt-24 mb-6"
+  class="relative mx-auto -mt-24 mb-6 w-32"
 >
   <img
     class="inline-block rounded-full w-32 h-32"

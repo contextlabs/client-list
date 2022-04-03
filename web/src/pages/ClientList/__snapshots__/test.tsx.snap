@@ -2,20 +2,20 @@
 
 exports[`<ClientList /> should render the ClientList as default 1`] = `
 <div
-  class="flex items-center justify-center"
+  class="flex justify-center items-center"
 >
   <div
-    class="flex border-2 rounded w-full"
+    class="flex w-full rounded border-2"
   >
     <input
       aria-label="SearchInput"
-      class="px-4 py-2 w-full"
+      class="py-2 px-4 w-full"
       placeholder="Search..."
       type="text"
     />
     <button
       aria-label="SearchInputIcon"
-      class="flex items-center justify-center px-4 border-l bg-white"
+      class="flex justify-center items-center px-4 bg-white border-l"
     >
       <div
         class="w-6 h-6 text-gray-600"

@@ -12,7 +12,8 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "test": "jest",
-    "lint": "eslint src --max-warnings=0"
+    "lint": "eslint src --max-warnings=0",
+    "lint:fix": "eslint --fix src --max-warnings=0"
   },
   "dependencies": {
     "axios": "^0.26.1",

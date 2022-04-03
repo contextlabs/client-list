@@ -6,16 +6,19 @@ export interface SearchInputProps {
 
 export const SearchInput: React.FC<SearchInputProps> = ({ setSearchTerm }) => {
   return (
-    <div className="flex items-center justify-center">
-      <div className="flex border-2 rounded w-full">
+    <div className="flex justify-center items-center">
+      <div className="flex w-full rounded border-2">
         <input
           type="text"
-          className="px-4 py-2 w-full"
+          className="py-2 px-4 w-full"
           placeholder="Search..."
           onChange={(e) => setSearchTerm(e.target.value)}
           aria-label="SearchInput"
         />
-        <button className="flex items-center justify-center px-4 border-l bg-white" aria-label="SearchInputIcon">
+        <button
+          className="flex justify-center items-center px-4 bg-white border-l"
+          aria-label="SearchInputIcon"
+        >
           <Search className="w-6 h-6 text-gray-600" />
         </button>
       </div>

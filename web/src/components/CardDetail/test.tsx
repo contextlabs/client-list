@@ -2,8 +2,6 @@ import { render, screen } from '@testing-library/react';
 
 import { CardDetail } from '.';
 
-const noop = () => {};
-
 describe('<CardDetail />', () => {
   const props = {
     name: 'CardDetail Name',
@@ -17,7 +15,11 @@ describe('<CardDetail />', () => {
     const { container } = render(<CardDetail {...props} />);
     expect(container.firstChild).toMatchSnapshot();
 
-    expect(screen.getByRole('heading', { name: /CardDetail Title/i })).toBeInTheDocument();
-    expect(screen.getByRole('heading', { name: /CardDetail Name/i })).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', { name: /CardDetail Title/i })
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', { name: /CardDetail Name/i })
+    ).toBeInTheDocument();
   });
 });

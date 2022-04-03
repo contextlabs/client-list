@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { Client } from '../../types/client.types';
 import { ClientList } from '.';
 import * as api from '../../api/client.api';

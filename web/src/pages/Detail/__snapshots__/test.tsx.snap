@@ -2,7 +2,7 @@
 
 exports[`<Detail /> should render the Detail as default 1`] = `
 <div
-  class="w-full bg-white rounded-lg shadow-md p-6 border-l-4 border-teal-500 border-solid"
+  class="p-6 w-full bg-white rounded-lg border-l-4 border-teal-500 border-solid shadow-md"
 >
   <div>
     Loading ...

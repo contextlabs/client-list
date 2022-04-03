@@ -4,7 +4,7 @@ import { Client } from '../../types/client.types';
 import { getClientByFilter, getClients } from '../../api/client.api';
 import { SearchInput } from '../../components/SearchInput';
 import { CardList } from '../../components/CardList';
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 export const ClientList = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -27,7 +27,7 @@ export const ClientList = () => {
         setResults(results.data);
       });
     }
-  }
+  };
 
   useEffect(
     () => {
@@ -48,9 +48,9 @@ export const ClientList = () => {
     <>
       <SearchInput setSearchTerm={setSearchTerm} />
       {isLoading && <div>Searching ...</div>}
-      {!isLoading && <CardList results={results} onClickNavigate={onClickNavigate}/>}
+      {!isLoading && (
+        <CardList results={results} onClickNavigate={onClickNavigate} />
+      )}
     </>
   );
 };
-
-

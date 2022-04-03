@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import  { ReactComponent as EmptyAvatarImage } from '../../img/empty-avatar.svg';
+import { ReactComponent as EmptyAvatarImage } from '../../img/empty-avatar.svg';
 
 type Size = 'small' | 'medium' | 'large' | 'xlarge';
 

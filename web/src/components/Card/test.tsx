@@ -2,13 +2,11 @@ import { render, screen } from '@testing-library/react';
 
 import { Card } from '.';
 
-const noop = () => {};
-
 describe('<Card />', () => {
   const props = {
     name: 'Card Name',
     title: 'Card Title',
-    onClickNavigate: noop,
+    onClickNavigate: Function,
     avatar: 'https://gravatar.com/4405735f6f3129e0286d9d43e7b460d0'
   };
 
@@ -21,8 +19,11 @@ describe('<Card />', () => {
 
     expect(container.firstChild).toMatchSnapshot();
 
-    expect(screen.getByRole('heading', { name: /Card Title/i })).toBeInTheDocument();
-    expect(screen.getByRole('heading', { name: /Card Name/i })).toBeInTheDocument();
-    
+    expect(
+      screen.getByRole('heading', { name: /Card Title/i })
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', { name: /Card Name/i })
+    ).toBeInTheDocument();
   });
 });

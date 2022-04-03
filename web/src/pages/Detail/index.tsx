@@ -20,7 +20,7 @@ export const Detail = () => {
   }, [name]);
 
   return (
-    <div className="w-full bg-white rounded-lg shadow-md p-6 border-l-4 border-teal-500 border-solid">
+    <div className="p-6 w-full bg-white rounded-lg border-l-4 border-teal-500 border-solid shadow-md">
       {isLoading && <div>Loading ...</div>}
       {!isLoading && client && (
         <CardDetail

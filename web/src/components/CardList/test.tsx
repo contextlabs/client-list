@@ -2,8 +2,6 @@ import { render, screen } from '@testing-library/react';
 
 import { CardList } from '.';
 
-const noop = () => {};
-
 describe('<CardList />', () => {
   const props = {
     results: [
@@ -15,15 +13,18 @@ describe('<CardList />', () => {
         quote: 'Hello'
       }
     ],
-    onClickNavigate: noop
+    onClickNavigate: Function
   };
 
   it('should render the CardList as default', () => {
     const { container } = render(<CardList {...props} />);
     expect(container.firstChild).toMatchSnapshot();
 
-    expect(screen.getByRole('heading', { name: /CardList Title/i })).toBeInTheDocument();
-    expect(screen.getByRole('heading', { name: /CardList Name/i })).toBeInTheDocument();
-
+    expect(
+      screen.getByRole('heading', { name: /CardList Title/i })
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', { name: /CardList Name/i })
+    ).toBeInTheDocument();
   });
 });
