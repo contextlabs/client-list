@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Detail /> should render the Detail as default 1`] = `
+<div
+  class="w-full bg-white rounded-lg shadow-md p-6 border-l-4 border-teal-500 border-solid"
+>
+  <div>
+    Loading ...
+  </div>
+</div>
+`;

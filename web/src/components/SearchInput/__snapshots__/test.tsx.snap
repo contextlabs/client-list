@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchInput /> should render the SearchInput as default 1`] = `
+<div
+  class="flex items-center justify-center"
+>
+  <div
+    class="flex border-2 rounded w-full"
+  >
+    <input
+      aria-label="SearchInput"
+      class="px-4 py-2 w-full"
+      placeholder="Search..."
+      type="text"
+    />
+    <button
+      aria-label="SearchInputIcon"
+      class="flex items-center justify-center px-4 border-l bg-white"
+    >
+      <div
+        class="w-6 h-6 text-gray-600"
+      />
+    </button>
+  </div>
+</div>
+`;

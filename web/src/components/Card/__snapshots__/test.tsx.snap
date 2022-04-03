@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should render the Card as default 1`] = `
+<div
+  class="sm:flex-row sm:my-8 flex flex-col mx-10 my-16 shadow-md rounded-md justify-between bg-white m-4 p-4 border-l-4 border-teal-500 border-solid"
+>
+  <div
+    class="sm:flex-row flex flex-col"
+  >
+    <div>
+      <img
+        class="inline-block rounded-full w-12 h-12"
+        src="https://gravatar.com/4405735f6f3129e0286d9d43e7b460d0"
+      />
+    </div>
+    <div
+      class="ml-4 flex flex-col justify-between"
+    >
+      <h3
+        class="text-teal-500 text-base font-bold"
+      >
+        Card Title
+      </h3>
+      <h2
+        class="sm:my-0 font-bold text-xl my-2"
+      >
+        Card Name
+      </h2>
+    </div>
+  </div>
+</div>
+`;

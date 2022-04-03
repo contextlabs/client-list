@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardDetail /> should render the CardDetail as default 1`] = `
+<div
+  class="w-32 mx-auto relative -mt-24 mb-6"
+>
+  <img
+    class="inline-block rounded-full w-32 h-32"
+    src="https://gravatar.com/4405735f6f3129e0286d9d43e7b460d0"
+  />
+</div>
+`;
